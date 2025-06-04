@@ -1,0 +1,98 @@
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+	/* background-color: gray; */
+    background-image: linear-gradient(to bottom, black, gray, black);
+    color: white;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 40px;
+}
+
+header {
+    background-image: linear-gradient(to bottom, white, black);
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Navigation links */
+header nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+/* Nav link hover effect */
+header nav a:hover {
+    color: #ffd700; /* gold on hover */
+    text-decoration: underline;
+}
+
+main {
+    padding: 100px;
+}
+
+h1 {
+	color: white;
+    font-size: 60px;
+}
+
+h2 {
+    color: white;
+    font-size: 30px;
+}
+
+/* Remove default link styles globally */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2em;
+}
+
+footer a {
+  color: #ffd700; 
+  text-decoration: none;
+  margin: 1px;
+}
+
+/* Footer links */
+footer a:hover {
+  text-decoration: underline;
+}
+
+/* Section containers */
+.rules, .awards, .experience {
+  margin: 2em auto;
+  width: 80%;
+  padding: 1em;
+  border: 5px solid black;
+}
+
+/* Section headers */
+.rules h2, .awards h2, .experience h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+/* Awards list */
+.awards ul {
+  padding-left: 1.5em;
+}
+
+/* Images */
+.gallery img {
+  width: 60%;
+  display: block;
+  margin-bottom: 10px;
+  padding-left: 8em;
+  padding-right: 0em;
+}
